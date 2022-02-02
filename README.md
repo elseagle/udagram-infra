@@ -9,7 +9,9 @@ This project has the deployment infrastructure for Udagram app
 - Launch Configuration was created for the application servers in order to deploy four servers
 - Two located in each of your private subnets. 
 - The launch configuration is used by an auto-scaling group.
-- Two vCPUs and at least 4GB of RAM. The Operating System used is Ubuntu 18. 10GB of disk space.
+- Two vCPUs and at least 4GB of RAM. 
+- The Operating System used is Ubuntu 18.
+- 10GB of disk space.
 
 ## Security Groups and Roles
 
