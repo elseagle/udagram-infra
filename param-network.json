@@ -1,7 +1,7 @@
 [
 	{
 		"ParameterKey": "EnvironmentName",
-		"ParameterValue": "CloudProject"
+		"ParameterValue": "Udagram"
 	},
 	{
 		"ParameterKey": "VpcCIDR",
