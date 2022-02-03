@@ -21,7 +21,7 @@ This project has the deployment infrastructure for Udagram app
 - The load balancer should allow all public traffic (0.0.0.0/0) on port 80 inbound, which is the default HTTP port. Outbound, it will only be using port 80 to reach the internal servers.
 - The application needs to be deployed into private subnets with a Load Balancer located in a public subnet.
 - One of the output exports of the CloudFormation script should be the public URL of the LoadBalancer.
--  http:// added in front of the load balancer DNS Name in the output, for convenience.
+-  `http:// `added in front of the load balancer DNS Name in the output, for convenience.
 
 ## Folders
 - `model`: the architecture diagram is here
